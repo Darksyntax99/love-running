@@ -16,6 +16,14 @@ body {
     font-family: Lato, sans-serif;
     background-color: lightgreen; /* make page background match #hero */
 }
+
+h1، h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Header */
 header{
     background-color:#ffffff;  
@@ -47,12 +55,7 @@ header a{
     color: inherit;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 
 #menu {
     font-size: 110%;
@@ -90,6 +93,12 @@ main{
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center / cover;
 }
+
+#cover-text {
+    /* Final rgba the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -97,6 +106,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: #ffffff; /* ensure the icons row is white */
 }
 
 #social-networks i{
