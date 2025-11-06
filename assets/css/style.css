@@ -1,5 +1,5 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 /* Asterisk wildcard selector default styles added by the browser */
 * {
     padding: 0;
@@ -66,7 +66,7 @@ h1 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-/*Navbar styles with
+/*Navbar styles */
 /* Main content dropdown toggle */
 nav{
     position: absolute;
@@ -79,10 +79,15 @@ nav{
     top: 100%;
 }
 main{
-    background-color: lightblue;
-    /* Make main element take up any suprius space to push footer down */
+ /* Make main element take up any suprius space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background-color: lightgreen;
 }
 /* Footer */
 #social-networks {
