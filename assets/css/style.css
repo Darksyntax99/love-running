@@ -192,13 +192,20 @@ main {
 }
 
 /* Gallery page */
+/* Gallery images: ensure they display correctly */
 #photos img {
+    display: block;
     width: 100%;
-    line-height: 1em;
+    height: auto;
+    max-width: 320px;
+    margin: 0 auto 1rem;
+    break-inside: avoid; /* prevent column breaks in multicol layout */
 }
 
 #photos {
     line-height: 0;
+    column-count: 1;
+    column-gap: 0;
 }
 
 /* Form */
